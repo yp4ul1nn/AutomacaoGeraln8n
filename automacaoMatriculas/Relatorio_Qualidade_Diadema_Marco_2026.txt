@@ -1,0 +1,87 @@
+================================================================================
+RELATÓRIO DE QUALIDADE E AUDITORIA DE DADOS — MATRÍCULAS DIADEMA/SP
+Mês de Referência: Março de 2026 (03/2026)
+Data e Horário da Execução: 10/11/2026 10:35:28
+================================================================================
+
+1. FONTES DE DADOS E RASTREABILIDADE:
+ - Fonte Primária: SEDUC-SP (https://dados.educacao.sp.gov.br/dataset/miest-matr%C3%ADcula-inicial-da-educa%C3%A7%C3%A3o-b%C3%A1sica-do-estado-de-s%C3%A3o-paulo)
+ - Arquivos Processados: MIEST Ciclo 03/2026, MIEST Turno 03/2026 e Dicionário MIEST
+ - Fonte Complementar: Observatório Diadema (https://observatorio.diadema.sp.gov.br/bi-escolas-de-diadema/)
+   Status Observatório: 200 - Painel Google Looker Studio identificado com dados do MIEST 03/2026.
+
+2. CONTROLE VOLUMÉTRICO E FILTRAGEM TERRITORIAL:
+ [Base MIEST Ciclo 03/2026]
+  - Registros lidos do arquivo original: 29.745
+  - Registros retidos para Diadema: 201 escolas
+  - Registros descartados: 29.544 (pertencentes a outros municípios de SP)
+ [Base MIEST Turno 03/2026]
+  - Registros lidos do arquivo original: 60.587
+  - Registros retidos para Diadema: 414 ofertas de turno
+  - Registros descartados: 60.173 (pertencentes a outros municípios de SP)
+  - Critério de Filtro Aplicado: Código SED CODMUN == 286 e Município == 'DIADEMA' (IBGE: 3513801)
+
+3. VERIFICAÇÃO DE INTEGRIDADE E DUPLICIDADE:
+ - Duplicatas na chave de escola (CODESC) em Ciclo: 0 (Zero duplicatas - Chave íntegra)
+ - Duplicatas na chave composta (CODESC + TURNO) em Turno: 0 (Zero duplicatas - Chave íntegra)
+
+4. VALIDAÇÃO CRUZADA MATEMÁTICA (CICLO vs TURNO):
+ - Soma total de matrículas na base Ciclo: 83.968
+ - Soma total de matrículas na base Turno: 83.968
+ - Diferença Absoluta (Delta): 0 matrículas
+ - RESULTADO DA CONCILIAÇÃO: [APROVADO COM 100% DE CONSISTÊNCIA]
+   A distribuição por turnos coincide exatamente com a capacidade declarada no ciclo.
+
+5. INDICADORES CONSOLIDADOS DE DIADEMA/SP:
+ - Total de Matrículas Ativas: 83.968
+ - Unidades Escolares Ativas: 201
+ - Turmas / Classes Ativas: 3.521
+ - Salas de Aula Físicas: 2.234
+ - Média de Alunos por Escola: 417.8
+ - Mediana de Alunos por Escola: 272.0
+ - Média de Alunos por Turma: 23.8
+
+ DISTRIBUIÇÃO POR REDE DE ENSINO:
+  * Estadual - SE       :  41.387 alunos (49.29%) | 61 escolas
+  * Municipal           :  27.069 alunos (32.24%) | 65 escolas
+  * Privada             :  14.428 alunos (17.18%) | 74 escolas
+  * Estadual - Outros   :   1.084 alunos ( 1.29%) | 1 escolas
+
+ DISTRIBUIÇÃO POR ETAPAS DE ENSINO:
+  * Educação Infantil (Creche e Pré-Escola)           :  15.348 (18.28%)
+  * Ensino Fundamental - Anos Iniciais (1º ao 5º ano) :  24.035 (28.62%)
+  * Ensino Fundamental - Anos Finais (6º ao 9º ano)   :  21.372 (25.45%)
+  * Ensino Fundamental (Total Consolidado)            :  45.407 (54.08%)
+  * Ensino Médio Regular                              :  13.210 (15.73%)
+  * Ensino Médio - Novotec                            :   2.395 ( 2.85%)
+  * Educação Profissional                             :   1.171 ( 1.39%)
+  * Educação de Jovens e Adultos (EJA)                :   2.056 ( 2.45%)
+  * Educação Especial / Atendimento Complementar      :   4.381 ( 5.22%)
+
+ DISTRIBUIÇÃO POR TURNO:
+  * Manhã             :  30.299 alunos (36.08%) | 142 escolas
+  * Tarde             :  26.919 alunos (32.06%) | 142 escolas
+  * Integral          :  18.867 alunos (22.47%) | 84 escolas
+  * Noite             :   7.828 alunos ( 9.32%) | 44 escolas
+  * Vespertino        :      55 alunos ( 0.07%) | 1 escolas
+  * Intermediário     :       0 alunos ( 0.00%) | 1 escolas
+
+6. TRATAMENTO DE VALORES AUSENTES:
+ - Todas as 63 colunas de matrículas e classes tiveram valores ausentes preenchidos com 0.
+ - Colunas não essenciais com registros ausentes na base bruta (ex.: FAX, FONE2, complemento):
+   * SETOR: 1 nulos (0.5%)
+   * CODVINC: 197 nulos (98.0%)
+   * COD_UNID_ADM: 143 nulos (71.1%)
+   * NUMESC: 1 nulos (0.5%)
+   * COMPLEND: 35 nulos (17.4%)
+   * DS_LONGITUDE: 1 nulos (0.5%)
+   * DS_LATITUDE: 1 nulos (0.5%)
+   * DDD: 3 nulos (1.5%)
+   * FONE1: 4 nulos (2.0%)
+   * FONE2: 123 nulos (61.2%)
+
+7. ESCOPO E NOTA METODOLÓGICA:
+ - A base MIEST reflete as matrículas iniciais apuradas em março de 2026 pela Secretaria Estadual.
+ - A base cobre a rede Estadual (SE e Centro Paula Souza), Municipal e Privada conveniada/regular.
+ - Não existem microdados individuais de sexo ou idade na base oficial MIEST agregada por turma.
+================================================================================

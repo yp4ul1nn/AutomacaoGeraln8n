@@ -1,0 +1,55 @@
+================================================================================
+RESUMO EXECUTIVO: MATRÍCULAS ESCOLARES DE DIADEMA/SP – MARÇO DE 2026
+Fonte Oficial: SEDUC-SP / MIEST (Matrícula Inicial da Educação Básica)
+================================================================================
+
+1. INDICADORES GLOBAIS:
+ - Total de Matrículas Ativas: 83.968
+ - Unidades Escolares Únicas: 201
+ - Total de Turmas / Classes Físicas: 3.521
+ - Total de Salas de Aula Físicas: 2.234
+ - Média de Alunos por Escola: 417.8
+ - Mediana de Alunos por Escola: 272.0
+ - Média de Alunos por Turma: 23.9
+
+2. DISTRIBUIÇÃO POR REDE DE ENSINO (DEPENDÊNCIA ADMINISTRATIVA):
+Rede de Ensino         | Escolas | Matrículas  | % Part.
+-------------------------------------------------------
+Estadual - SE          | 61      | 41.387      |  49.29%
+Municipal              | 65      | 27.069      |  32.24%
+Privada                | 74      | 14.428      |  17.18%
+Estadual - Outros      | 1       | 1.084       |   1.29%
+
+3. DISTRIBUIÇÃO POR ETAPAS E MODALIDADES DE ENSINO:
+ - Educação Infantil (Creche e Pré-Escola)                :  15.348 (18.28%)
+ - Ensino Fundamental - Anos Iniciais (1º ao 5º ano)      :  24.035 (28.62%)
+ - Ensino Fundamental - Anos Finais (6º ao 9º ano)        :  21.372 (25.45%)
+ - Ensino Fundamental (Total)                             :  45.407 (54.08%)
+ - Ensino Médio Regular                                   :  13.210 (15.73%)
+ - Ensino Médio - Novotec                                 :   2.395 ( 2.85%)
+ - Educação Profissional                                  :   1.171 ( 1.39%)
+ - Educação de Jovens e Adultos (EJA)                     :   2.056 ( 2.45%)
+ - Educação Especial / Atendimento Complementar           :   4.381 ( 5.22%)
+
+4. DISTRIBUIÇÃO POR TURNO DE FUNCIONAMENTO:
+Turno              | Escolas | Matrículas  | % Part.
+--------------------------------------------------
+Manhã              | 142     | 30.299      |  36.08%
+Tarde              | 142     | 26.919      |  32.06%
+Integral           | 84      | 18.867      |  22.47%
+Noite              | 44      | 7.828       |   9.32%
+Vespertino         | 1       | 55          |   0.07%
+Intermediário      | 1       | 0           |   0.00%
+
+5. MAIORES UNIDADES ESCOLARES (TOP 5 EM MATRÍCULAS):
+ 1. JOAO RAMALHO (Estadual - SE) - CONCEICAO: 1.813 alunos (51 turmas)
+ 2. SIMON BOLIVAR (Estadual - SE) - ELDORADO: 1.548 alunos (44 turmas)
+ 3. DIADEMA (Estadual - SE) - CENTRO: 1.547 alunos (42 turmas)
+ 4. MARIO SANTALUCIA DR EM (Municipal) - CASA GRANDE: 1.485 alunos (78 turmas)
+ 5. REINALDO JOSE SANTANA INSPETOR PIRO EM (Municipal) - INAMAR: 1.379 alunos (67 turmas)
+
+6. NOTA METODOLÓGICA E COBERTURA:
+ - Os dados refletem a Matrícula Inicial (MIEST) apurada em março de 2026.
+ - A base cobre a rede Estadual (SE e Centro Paula Souza), Municipal e Privada.
+ - A base pública MIEST da SEDUC/SP organiza as matrículas agrupadas por unidade escolar, turma, série/ano e turno, não disponibilizando campos de desagregação individual por sexo ou idade. Em conformidade com as diretrizes do projeto, não foram gerados indicadores sem suporte na fonte.
+================================================================================
